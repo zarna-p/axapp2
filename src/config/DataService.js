@@ -10,6 +10,7 @@ function GetAxios() {
     useEffect(() => {
         Axios.get(baseURL).then((response) => {
             setData(response.data);
+            // test
         })
     },[]);
 
